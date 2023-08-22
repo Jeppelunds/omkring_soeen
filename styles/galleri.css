@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@400;500;600;700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 0.625rem;
+  font-family: "Raleway", sans-serif;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+section {
+  padding: 200px;
+}
+
+.grid-template img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.grid-template {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(7, 1fr);
+  gap: 20px;
+}
+
+.boat1 {
+  grid-row: span 2;
+}
+
+.bridge3 {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+.church1 {
+  grid-row: span 2;
+}
+
+.duck3 {
+  grid-row: span 2;
+}
+
+footer {
+  background-color: #e6e5e1;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 1400px) {
+    .grid-template {
+  width: 100%;
+  display: grid;
+ grid-template-columns: repeat(2, 1fr);
+}
+
+.boat1 {
+  grid-row: inherit;
+}
+
+.bridge3 {
+  grid-column: inherit;
+  grid-row: inherit;
+}
+
+.church1 {
+  grid-row: inherit;
+}
+
+.duck3 {
+  grid-row: inherit;
+}
+
+section{
+    padding: 100px;
+}
+
+}
