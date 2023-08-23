@@ -16,13 +16,19 @@ body {
 }
 
 section {
-  padding: 200px;
+  padding: 200px 100px;
 }
 
 .grid-template img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.grid-template img:hover{
+
+  cursor: pointer;
+  
 }
 
 .grid-template {
@@ -56,34 +62,4 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-@media only screen and (max-width: 1400px) {
-    .grid-template {
-  width: 100%;
-  display: grid;
- grid-template-columns: repeat(2, 1fr);
-}
-
-.boat1 {
-  grid-row: inherit;
-}
-
-.bridge3 {
-  grid-column: inherit;
-  grid-row: inherit;
-}
-
-.church1 {
-  grid-row: inherit;
-}
-
-.duck3 {
-  grid-row: inherit;
-}
-
-section{
-    padding: 100px;
-}
-
 }

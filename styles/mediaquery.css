@@ -1,0 +1,91 @@
+/* Gallery */
+
+@media only screen and (max-width: 1400px) {
+    .grid-template {
+  width: 100%;
+  display: grid;
+ grid-template-columns: repeat(2, 1fr);
+}
+
+.boat1 {
+  grid-row: inherit;
+}
+
+.bridge3 {
+  grid-column: inherit;
+  grid-row: inherit;
+}
+
+.church1 {
+  grid-row: inherit;
+}
+
+.duck3 {
+  grid-row: inherit;
+}
+
+section{
+    padding: 200px 100px;
+}
+
+}
+
+@media only screen and (max-width: 1000px) {
+    .grid-template {
+  width: 100%;
+  display: grid;
+ grid-template-columns: repeat(1, 1fr);
+}
+
+.boat1 {
+  grid-row: inherit;
+}
+
+.bridge3 {
+  grid-column: inherit;
+  grid-row: inherit;
+}
+
+.church1 {
+  grid-row: inherit;
+}
+
+.duck3 {
+  grid-row: inherit;
+}
+
+section{
+    padding: 200px 100px;
+}
+
+}
+
+@media only screen and (max-width: 550px) {
+    .grid-template {
+  width: 100%;
+  display: grid;
+ grid-template-columns: repeat(1, 1fr);
+}
+
+.boat1 {
+  grid-row: inherit;
+}
+
+.bridge3 {
+  grid-column: inherit;
+  grid-row: inherit;
+}
+
+.church1 {
+  grid-row: inherit;
+}
+
+.duck3 {
+  grid-row: inherit;
+}
+
+section{
+    padding: 150px 50px;
+}
+
+}
