@@ -137,4 +137,7 @@ footer{
   background-color: #E6E5E1;
   height: 200px;
   margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
