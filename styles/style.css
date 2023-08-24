@@ -27,6 +27,10 @@ nav {
   display: none;
 }
 
+.animate__animated.animate__fadeIn{
+  --animate-duration: 4s;
+}
+
 .front-page-img {
   width: 100%;
   height: 60%;
@@ -42,6 +46,42 @@ h1 {
   margin-top: 70px;
 }
 
+.picture-right-quote a{
+  text-decoration: none;
+  color: black;
+  font-size: 2rem;
+  transition: 0.5s linear;
+}
+
+.picture-right-quote a:hover{
+  cursor: pointer;
+  color: #F44336;
+}
+
+.picture-left-quote a{
+  text-decoration: none;
+  color: black;
+  font-size: 2rem;
+  transition: 0.5s linear;
+}
+
+.picture-left-quote a:hover{
+  cursor: pointer;
+  color: #F44336;
+}
+
+.sivene-quote a{
+  text-decoration: none;
+  color: black;
+  font-size: 2rem;
+  transition: 0.5s linear;
+}
+
+.sivene-quote a:hover{
+  cursor: pointer;
+  color: #F44336;
+}
+
 .picture-right-section {
   background-image: url(/img/boats/Boats-map.png);
   background-size: cover;
@@ -54,8 +94,6 @@ h1 {
   margin-top: 20px;
 }
 
-.picture-right-imgs {
-}
 
 .picture-right-imgs img {
   width: 100%;
@@ -68,6 +106,7 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-style: italic;
 }
 
 .picture-right-quote a {
@@ -86,8 +125,6 @@ h1 {
   padding-bottom: 60px;
 }
 
-.picture-left-imgs {
-}
 
 .picture-left-imgs img {
   width: 100%;
@@ -100,16 +137,33 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-style: italic;
 }
 
 .picture-left-quote a {
   margin-top: 30px;
 }
 
+.bridge-map{
+  background-image: url(/img/bridge/Bridge-map.png);
+}
+
+.church-map{
+  background-image: url(/img/church/Chruch-map.png);
+}
+
+.ducks-map{
+  background-image: url(/img/ducks/Ducks-map.png);
+}
+
 .sivene {
   padding: 20px;
   margin-top: 40px;
   padding-bottom: 60px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
 }
 
 .sivene-imgs {
@@ -127,6 +181,7 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-style: italic;
 }
 
 .sivene-quote a {
