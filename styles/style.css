@@ -94,6 +94,10 @@ h1 {
   margin-top: 20px;
 }
 
+.picture-right-imgs{
+  overflow: hidden;
+}
+
 
 .picture-right-imgs img {
   width: 100%;
@@ -123,6 +127,10 @@ h1 {
   padding: 20px;
   margin-top: 100px;
   padding-bottom: 60px;
+}
+
+.picture-right-imgs{
+  overflow: hidden;
 }
 
 
