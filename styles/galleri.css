@@ -63,3 +63,215 @@ footer {
   justify-content: center;
   align-items: center;
 }
+
+.boat1-modal{
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.678);
+  justify-content: center;
+  align-items: center; 
+  position: fixed;
+  display: none;
+}
+
+.boat1-big{
+  width: 60%;
+}
+
+.fa-x{
+  font-size: 3rem;
+  position: absolute;
+  color: white;
+  top: 20px;
+  right: 20px;
+}
+
+.fa-x:hover{
+  color: rgba(255, 255, 255, 0.678);
+  cursor: pointer;
+}
+
+
+.boat2-modal{
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.678);
+  justify-content: center;
+  align-items: center; 
+  position: fixed;
+  display: none;
+}
+
+.boat3-modal{
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.678);
+  justify-content: center;
+  align-items: center; 
+  position: fixed;
+  display: none;
+}
+
+.boat4-modal{
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.678);
+  justify-content: center;
+  align-items: center; 
+  position: fixed;
+  display: none;
+}
+
+.boat5-modal{
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.678);
+  justify-content: center;
+  align-items: center; 
+  position: fixed;
+  display: none;
+}
+
+.boat5-modal{
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.678);
+  justify-content: center;
+  align-items: center; 
+  position: fixed;
+  display: none;
+}
+
+.boat6-modal{
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.678);
+  justify-content: center;
+  align-items: center; 
+  position: fixed;
+  display: none;
+}
+
+.bridge1-modal{
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.678);
+  justify-content: center;
+  align-items: center; 
+  position: fixed;
+  display: none;
+}
+
+.bridge2-modal{
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.678);
+  justify-content: center;
+  align-items: center; 
+  position: fixed;
+  display: none;
+}
+
+.bridge3-modal{
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.678);
+  justify-content: center;
+  align-items: center; 
+  position: fixed;
+  display: none;
+}
+
+.church1-modal{
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.678);
+  justify-content: center;
+  align-items: center; 
+  position: fixed;
+  display: none;
+}
+
+.church2-modal{
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.678);
+  justify-content: center;
+  align-items: center; 
+  position: fixed;
+  display: none;
+}
+
+.ducks1-modal{
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.678);
+  justify-content: center;
+  align-items: center; 
+  position: fixed;
+  display: none;
+}
+
+.ducks2-modal{
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.678);
+  justify-content: center;
+  align-items: center; 
+  position: fixed;
+  display: none;
+}
+
+.ducks3-modal{
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.678);
+  justify-content: center;
+  align-items: center; 
+  position: fixed;
+  display: none;
+}
+
+.ducks4-modal{
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.678);
+  justify-content: center;
+  align-items: center; 
+  position: fixed;
+  display: none;
+}
+
+.ducks5-modal{
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.678);
+  justify-content: center;
+  align-items: center; 
+  position: fixed;
+  display: none;
+}
+
+.sivene1-modal{
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.678);
+  justify-content: center;
+  align-items: center; 
+  position: fixed;
+  display: none;
+}
+
+.sivene2-modal{
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.678);
+  justify-content: center;
+  align-items: center; 
+  position: fixed;
+  display: none;
+}
+
+.show-modal{
+  display:flex; 
+}
