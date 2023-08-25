@@ -34,7 +34,7 @@ nav {
 .front-page-img {
   width: 100%;
   height: 60%;
-  background-image: url(/img/viborg-nørresø.jpg);
+  background-image: url(../img/viborg-nørresø.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -83,7 +83,7 @@ h1 {
 }
 
 .picture-right-section {
-  background-image: url(/img/boats/Boats-map.png);
+  background-image: url(../img/boats/Boats-map.png);
   background-size: cover;
   background-position: center;
   display: flex;
@@ -118,7 +118,7 @@ h1 {
 }
 
 .picture-left-section {
-  background-image: url(/img/boats/Boats-map.png);
+  background-image: url(../img/boats/Boats-map.png);
   background-size: cover;
   background-position: center;
   display: flex;
@@ -153,15 +153,15 @@ h1 {
 }
 
 .bridge-map{
-  background-image: url(/img/bridge/Bridge-map.png);
+  background-image: url(../img/bridge/Bridge-map.png);
 }
 
 .church-map{
-  background-image: url(/img/church/Chruch-map.png);
+  background-image: url(../img/church/Chruch-map.png);
 }
 
 .ducks-map{
-  background-image: url(/img/ducks/Ducks-map.png);
+  background-image: url(../img/ducks/Ducks-map.png);
 }
 
 .sivene {
