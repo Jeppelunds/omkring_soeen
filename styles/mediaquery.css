@@ -52,6 +52,14 @@
   .show{
    top: 0px;
   }
+
+  ._2Nx_6{
+    top: 0;
+  }
+
+  .black{
+    color: black;
+  }
 }
 
 @media only screen and (min-width: 900px) {
